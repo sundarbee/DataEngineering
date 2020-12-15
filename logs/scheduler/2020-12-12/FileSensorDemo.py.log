@@ -1,0 +1,56 @@
+[2020-12-12 07:12:45,873] {scheduler_job.py:154} INFO - Started process (PID=99088) to work on /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-12 07:12:45,895] {logging_mixin.py:112} INFO - [2020-12-12 07:12:45,894] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-12 07:12:45,895] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/FileSensorDemo.py for tasks to queue
+[2020-12-12 07:12:45,895] {logging_mixin.py:112} INFO - [2020-12-12 07:12:45,895] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-12 07:12:45,907] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Write_data_to_PG']) retrieved from /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-12 07:12:45,923] {scheduler_job.py:1305} INFO - Processing Write_data_to_PG
+[2020-12-12 07:12:45,954] {scheduler_job.py:1315} INFO - Created <DagRun Write_data_to_PG @ 2020-12-12T01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False>
+[2020-12-12 07:12:45,956] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-11 14:35:00+00:00: scheduled__2020-12-11T14:35:00+00:00, externally triggered: False>
+[2020-12-12 07:12:45,961] {logging_mixin.py:112} INFO - [2020-12-12 07:12:45,961] {dagrun.py:311} INFO - Marking run <DagRun Write_data_to_PG @ 2020-12-11 14:35:00+00:00: scheduled__2020-12-11T14:35:00+00:00, externally triggered: False> failed
+[2020-12-12 07:12:45,966] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-11 18:35:00+00:00: scheduled__2020-12-11T18:35:00+00:00, externally triggered: False>
+[2020-12-12 07:12:45,979] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False>
+[2020-12-12 07:12:46,017] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: Write_data_to_PG> because no tasks in DAG have SLAs
+[2020-12-12 07:12:46,019] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Write_data_to_PG.create_table 2020-12-12 01:35:00+00:00 [scheduled]> in ORM
+[2020-12-12 07:12:46,023] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/FileSensorDemo.py took 0.151 seconds
+[2020-12-12 15:13:04,408] {scheduler_job.py:154} INFO - Started process (PID=99164) to work on /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-12 15:13:04,425] {logging_mixin.py:112} INFO - [2020-12-12 15:13:04,425] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-12 15:13:04,425] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/FileSensorDemo.py for tasks to queue
+[2020-12-12 15:13:04,426] {logging_mixin.py:112} INFO - [2020-12-12 15:13:04,426] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-12 15:13:04,437] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Write_data_to_PG']) retrieved from /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-12 15:13:04,447] {scheduler_job.py:1305} INFO - Processing Write_data_to_PG
+[2020-12-12 15:13:04,480] {scheduler_job.py:1315} INFO - Created <DagRun Write_data_to_PG @ 2020-12-12T09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False>
+[2020-12-12 15:13:04,481] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-11 18:35:00+00:00: scheduled__2020-12-11T18:35:00+00:00, externally triggered: False>
+[2020-12-12 15:13:04,486] {logging_mixin.py:112} INFO - [2020-12-12 15:13:04,486] {dagrun.py:311} INFO - Marking run <DagRun Write_data_to_PG @ 2020-12-11 18:35:00+00:00: scheduled__2020-12-11T18:35:00+00:00, externally triggered: False> failed
+[2020-12-12 15:13:04,488] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False>
+[2020-12-12 15:13:04,502] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False>
+[2020-12-12 15:13:04,529] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: Write_data_to_PG> because no tasks in DAG have SLAs
+[2020-12-12 15:13:04,531] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Write_data_to_PG.create_table 2020-12-12 09:35:00+00:00 [scheduled]> in ORM
+[2020-12-12 15:13:04,536] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/FileSensorDemo.py took 0.128 seconds
+[2020-12-13 01:54:53,486] {scheduler_job.py:154} INFO - Started process (PID=99274) to work on /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-13 01:54:53,524] {logging_mixin.py:112} INFO - [2020-12-13 01:54:53,524] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-13 01:54:53,525] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/FileSensorDemo.py for tasks to queue
+[2020-12-13 01:54:53,525] {logging_mixin.py:112} INFO - [2020-12-13 01:54:53,525] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-13 01:54:53,551] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Write_data_to_PG']) retrieved from /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-13 01:54:53,580] {scheduler_job.py:1305} INFO - Processing Write_data_to_PG
+[2020-12-13 01:54:53,642] {scheduler_job.py:1315} INFO - Created <DagRun Write_data_to_PG @ 2020-12-12T20:15:00+00:00: scheduled__2020-12-12T20:15:00+00:00, externally triggered: False>
+[2020-12-13 01:54:53,645] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False>
+[2020-12-13 01:54:53,653] {logging_mixin.py:112} INFO - [2020-12-13 01:54:53,653] {dagrun.py:311} INFO - Marking run <DagRun Write_data_to_PG @ 2020-12-12 01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False> failed
+[2020-12-13 01:54:53,656] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False>
+[2020-12-13 01:54:53,683] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 20:15:00+00:00: scheduled__2020-12-12T20:15:00+00:00, externally triggered: False>
+[2020-12-13 01:54:53,747] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: Write_data_to_PG> because no tasks in DAG have SLAs
+[2020-12-13 01:54:53,751] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Write_data_to_PG.create_table 2020-12-12 20:15:00+00:00 [scheduled]> in ORM
+[2020-12-13 01:54:53,760] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/FileSensorDemo.py took 0.274 seconds
+[2020-12-13 03:44:59,315] {scheduler_job.py:154} INFO - Started process (PID=99397) to work on /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-13 03:44:59,351] {logging_mixin.py:112} INFO - [2020-12-13 03:44:59,351] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-13 03:44:59,352] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/FileSensorDemo.py for tasks to queue
+[2020-12-13 03:44:59,352] {logging_mixin.py:112} INFO - [2020-12-13 03:44:59,352] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-13 03:44:59,367] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Write_data_to_PG']) retrieved from /Users/sundarb/airflow/dags/FileSensorDemo.py
+[2020-12-13 03:44:59,390] {scheduler_job.py:1305} INFO - Processing Write_data_to_PG
+[2020-12-13 03:44:59,450] {scheduler_job.py:1315} INFO - Created <DagRun Write_data_to_PG @ 2020-12-12T22:05:00+00:00: scheduled__2020-12-12T22:05:00+00:00, externally triggered: False>
+[2020-12-13 03:44:59,457] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False>
+[2020-12-13 03:44:59,477] {logging_mixin.py:112} INFO - [2020-12-13 03:44:59,477] {dagrun.py:311} INFO - Marking run <DagRun Write_data_to_PG @ 2020-12-12 09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False> failed
+[2020-12-13 03:44:59,481] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 20:15:00+00:00: scheduled__2020-12-12T20:15:00+00:00, externally triggered: False>
+[2020-12-13 03:44:59,512] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Write_data_to_PG @ 2020-12-12 22:05:00+00:00: scheduled__2020-12-12T22:05:00+00:00, externally triggered: False>
+[2020-12-13 03:44:59,577] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: Write_data_to_PG> because no tasks in DAG have SLAs
+[2020-12-13 03:44:59,581] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Write_data_to_PG.create_table 2020-12-12 22:05:00+00:00 [scheduled]> in ORM
+[2020-12-13 03:44:59,593] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/FileSensorDemo.py took 0.279 seconds

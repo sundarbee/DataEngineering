@@ -1,0 +1,31 @@
+[2020-11-25 16:33:18,843] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: First_DAG_for_test.read_csv 2020-11-25T10:00:00+00:00 [queued]>
+[2020-11-25 16:33:18,853] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: First_DAG_for_test.read_csv 2020-11-25T10:00:00+00:00 [queued]>
+[2020-11-25 16:33:18,853] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-25 16:33:18,854] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-11-25 16:33:18,854] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-25 16:33:18,859] {taskinstance.py:901} INFO - Executing <Task(BashOperator): read_csv> on 2020-11-25T10:00:00+00:00
+[2020-11-25 16:33:18,861] {standard_task_runner.py:54} INFO - Started process 77681 to run task
+[2020-11-25 16:33:18,876] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'First_DAG_for_test', 'read_csv', '2020-11-25T10:00:00+00:00', '--job_id', '228', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/sampleDag.py', '--cfg_path', '/var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/tmp301kna20']
+[2020-11-25 16:33:18,878] {standard_task_runner.py:78} INFO - Job 228: Subtask read_csv
+[2020-11-25 16:33:18,908] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: First_DAG_for_test.read_csv 2020-11-25T10:00:00+00:00 [running]> 153.225.168.192.in-addr.arpa
+[2020-11-25 16:33:18,927] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T
+[2020-11-25 16:33:18,928] {bash_operator.py:136} INFO - Temporary script location: /var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/airflowtmpq0h_lnsz/read_csvij1e7iva
+[2020-11-25 16:33:18,928] {bash_operator.py:146} INFO - Running command: python3 /Users/sundarb/Documents/DEWorkspace/postgresSample.conf
+[2020-11-25 16:33:18,934] {bash_operator.py:153} INFO - Output:
+[2020-11-25 16:33:19,018] {bash_operator.py:157} INFO -   File "/Users/sundarb/Documents/DEWorkspace/postgresSample.conf", line 1
+[2020-11-25 16:33:19,019] {bash_operator.py:157} INFO -     input{
+[2020-11-25 16:33:19,019] {bash_operator.py:157} INFO -          ^
+[2020-11-25 16:33:19,019] {bash_operator.py:157} INFO - SyntaxError: invalid syntax
+[2020-11-25 16:33:19,022] {bash_operator.py:161} INFO - Command exited with return code 1
+[2020-11-25 16:33:19,028] {taskinstance.py:1150} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 984, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/operators/bash_operator.py", line 165, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-11-25 16:33:19,034] {taskinstance.py:1194} INFO - Marking task as FAILED. dag_id=First_DAG_for_test, task_id=read_csv, execution_date=20201125T100000, start_date=20201125T110318, end_date=20201125T110319
+[2020-11-25 16:33:23,853] {local_task_job.py:102} INFO - Task exited with return code 1

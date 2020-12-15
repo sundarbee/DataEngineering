@@ -1,0 +1,60 @@
+[2020-12-12 07:12:44,169] {scheduler_job.py:154} INFO - Started process (PID=99086) to work on /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-12 07:12:44,187] {logging_mixin.py:112} INFO - [2020-12-12 07:12:44,187] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-12 07:12:44,188] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/server-elastic.py for tasks to queue
+[2020-12-12 07:12:44,188] {logging_mixin.py:112} INFO - [2020-12-12 07:12:44,188] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-12 07:12:44,246] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Airflow_task']) retrieved from /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-12 07:12:44,259] {scheduler_job.py:1305} INFO - Processing Airflow_task
+[2020-12-12 07:12:44,291] {scheduler_job.py:1315} INFO - Created <DagRun Airflow_task @ 2020-12-12T01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False>
+[2020-12-12 07:12:44,292] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-11 14:35:00+00:00: scheduled__2020-12-11T14:35:00+00:00, externally triggered: False>
+[2020-12-12 07:12:44,296] {logging_mixin.py:112} INFO - [2020-12-12 07:12:44,296] {dagrun.py:320} INFO - Marking run <DagRun Airflow_task @ 2020-12-11 14:35:00+00:00: scheduled__2020-12-11T14:35:00+00:00, externally triggered: False> successful
+[2020-12-12 07:12:44,298] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-11 17:35:00+00:00: scheduled__2020-12-11T17:35:00+00:00, externally triggered: False>
+[2020-12-12 07:12:44,306] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False>
+[2020-12-12 07:12:44,324] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: Airflow_task> because no tasks in DAG have SLAs
+[2020-12-12 07:12:44,326] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Airflow_task.Data_from_table2 2020-12-11 17:35:00+00:00 [scheduled]> in ORM
+[2020-12-12 07:12:44,328] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Airflow_task.Data_from_table1 2020-12-12 01:35:00+00:00 [scheduled]> in ORM
+[2020-12-12 07:12:44,335] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/server-elastic.py took 0.166 seconds
+[2020-12-12 15:13:03,080] {scheduler_job.py:154} INFO - Started process (PID=99155) to work on /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-12 15:13:03,098] {logging_mixin.py:112} INFO - [2020-12-12 15:13:03,098] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-12 15:13:03,098] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/server-elastic.py for tasks to queue
+[2020-12-12 15:13:03,098] {logging_mixin.py:112} INFO - [2020-12-12 15:13:03,098] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-12 15:13:03,170] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Airflow_task']) retrieved from /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-12 15:13:03,183] {scheduler_job.py:1305} INFO - Processing Airflow_task
+[2020-12-12 15:13:03,217] {scheduler_job.py:1315} INFO - Created <DagRun Airflow_task @ 2020-12-12T09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False>
+[2020-12-12 15:13:03,219] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-11 17:35:00+00:00: scheduled__2020-12-11T17:35:00+00:00, externally triggered: False>
+[2020-12-12 15:13:03,225] {logging_mixin.py:112} INFO - [2020-12-12 15:13:03,224] {dagrun.py:320} INFO - Marking run <DagRun Airflow_task @ 2020-12-11 17:35:00+00:00: scheduled__2020-12-11T17:35:00+00:00, externally triggered: False> successful
+[2020-12-12 15:13:03,226] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False>
+[2020-12-12 15:13:03,236] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False>
+[2020-12-12 15:13:03,260] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: Airflow_task> because no tasks in DAG have SLAs
+[2020-12-12 15:13:03,262] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Airflow_task.Data_from_table2 2020-12-12 01:35:00+00:00 [scheduled]> in ORM
+[2020-12-12 15:13:03,266] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Airflow_task.Data_from_table1 2020-12-12 09:35:00+00:00 [scheduled]> in ORM
+[2020-12-12 15:13:03,271] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/server-elastic.py took 0.192 seconds
+[2020-12-13 01:54:50,614] {scheduler_job.py:154} INFO - Started process (PID=99269) to work on /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-13 01:54:50,655] {logging_mixin.py:112} INFO - [2020-12-13 01:54:50,655] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-13 01:54:50,657] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/server-elastic.py for tasks to queue
+[2020-12-13 01:54:50,657] {logging_mixin.py:112} INFO - [2020-12-13 01:54:50,657] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-13 01:54:50,764] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Airflow_task']) retrieved from /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-13 01:54:50,785] {scheduler_job.py:1305} INFO - Processing Airflow_task
+[2020-12-13 01:54:50,848] {scheduler_job.py:1315} INFO - Created <DagRun Airflow_task @ 2020-12-12T20:15:00+00:00: scheduled__2020-12-12T20:15:00+00:00, externally triggered: False>
+[2020-12-13 01:54:50,852] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False>
+[2020-12-13 01:54:50,860] {logging_mixin.py:112} INFO - [2020-12-13 01:54:50,860] {dagrun.py:320} INFO - Marking run <DagRun Airflow_task @ 2020-12-12 01:35:00+00:00: scheduled__2020-12-12T01:35:00+00:00, externally triggered: False> successful
+[2020-12-13 01:54:50,864] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False>
+[2020-12-13 01:54:50,881] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 20:15:00+00:00: scheduled__2020-12-12T20:15:00+00:00, externally triggered: False>
+[2020-12-13 01:54:50,918] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: Airflow_task> because no tasks in DAG have SLAs
+[2020-12-13 01:54:50,922] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Airflow_task.Data_from_table2 2020-12-12 09:35:00+00:00 [scheduled]> in ORM
+[2020-12-13 01:54:50,928] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Airflow_task.Data_from_table1 2020-12-12 20:15:00+00:00 [scheduled]> in ORM
+[2020-12-13 01:54:50,937] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/server-elastic.py took 0.323 seconds
+[2020-12-13 02:30:07,931] {scheduler_job.py:154} INFO - Started process (PID=99344) to work on /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-13 03:44:49,070] {logging_mixin.py:112} INFO - [2020-12-13 03:44:49,069] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-13 03:44:49,073] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/server-elastic.py for tasks to queue
+[2020-12-13 03:44:49,073] {logging_mixin.py:112} INFO - [2020-12-13 03:44:49,073] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-13 03:44:49,228] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Airflow_task']) retrieved from /Users/sundarb/airflow/dags/server-elastic.py
+[2020-12-13 03:44:49,827] {scheduler_job.py:1305} INFO - Processing Airflow_task
+[2020-12-13 03:44:49,975] {scheduler_job.py:1315} INFO - Created <DagRun Airflow_task @ 2020-12-12T22:05:00+00:00: scheduled__2020-12-12T22:05:00+00:00, externally triggered: False>
+[2020-12-13 03:44:49,981] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False>
+[2020-12-13 03:44:49,998] {logging_mixin.py:112} INFO - [2020-12-13 03:44:49,998] {dagrun.py:320} INFO - Marking run <DagRun Airflow_task @ 2020-12-12 09:35:00+00:00: scheduled__2020-12-12T09:35:00+00:00, externally triggered: False> successful
+[2020-12-13 03:44:50,004] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 20:15:00+00:00: scheduled__2020-12-12T20:15:00+00:00, externally triggered: False>
+[2020-12-13 03:44:50,090] {scheduler_job.py:771} INFO - Examining DAG run <DagRun Airflow_task @ 2020-12-12 22:05:00+00:00: scheduled__2020-12-12T22:05:00+00:00, externally triggered: False>
+[2020-12-13 03:44:50,193] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: Airflow_task> because no tasks in DAG have SLAs
+[2020-12-13 03:44:50,205] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Airflow_task.Data_from_table2 2020-12-12 20:15:00+00:00 [scheduled]> in ORM
+[2020-12-13 03:44:50,215] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: Airflow_task.Data_from_table1 2020-12-12 22:05:00+00:00 [scheduled]> in ORM
+[2020-12-13 03:44:50,228] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/server-elastic.py took 4482.297 seconds

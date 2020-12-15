@@ -1,0 +1,19 @@
+[2020-12-05 14:15:49,125] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Airflow_task.Data_from_table2 2020-12-05T08:40:00+00:00 [queued]>
+[2020-12-05 14:15:49,135] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Airflow_task.Data_from_table2 2020-12-05T08:40:00+00:00 [queued]>
+[2020-12-05 14:15:49,136] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-05 14:15:49,136] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-12-05 14:15:49,136] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-05 14:15:49,140] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): Data_from_table2> on 2020-12-05T08:40:00+00:00
+[2020-12-05 14:15:49,142] {standard_task_runner.py:54} INFO - Started process 26094 to run task
+[2020-12-05 14:15:49,240] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'Airflow_task', 'Data_from_table2', '2020-12-05T08:40:00+00:00', '--job_id', '83', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/server-elastic.py', '--cfg_path', '/var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/tmpuo2aekfd']
+[2020-12-05 14:15:49,246] {standard_task_runner.py:78} INFO - Job 83: Subtask Data_from_table2
+[2020-12-05 14:15:49,292] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: Airflow_task.Data_from_table2 2020-12-05T08:40:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-12-05 15:45:05,106] {logging_mixin.py:112} INFO - Error::::: server closed the connection unexpectedly
+	This probably means the server terminated abnormally
+	before or while processing the request.
+[2020-12-05 15:45:05,107] {logging_mixin.py:112} INFO - 
+[2020-12-05 15:45:05,107] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-12-05 15:45:05,114] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=Airflow_task, task_id=Data_from_table2, execution_date=20201205T084000, start_date=20201205T084549, end_date=20201205T101505
+[2020-12-05 15:45:08,363] {local_task_job.py:102} INFO - Task exited with return code 0

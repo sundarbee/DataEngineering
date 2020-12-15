@@ -1,0 +1,21 @@
+[2020-11-27 11:34:28,503] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: First_DAG_for_test.print_data 2020-11-27T05:00:00+00:00 [queued]>
+[2020-11-27 11:34:28,515] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: First_DAG_for_test.print_data 2020-11-27T05:00:00+00:00 [queued]>
+[2020-11-27 11:34:28,515] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-27 11:34:28,515] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-11-27 11:34:28,515] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-27 11:34:28,522] {taskinstance.py:901} INFO - Executing <Task(BashOperator): print_data> on 2020-11-27T05:00:00+00:00
+[2020-11-27 11:34:28,524] {standard_task_runner.py:54} INFO - Started process 86402 to run task
+[2020-11-27 11:34:28,538] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'First_DAG_for_test', 'print_data', '2020-11-27T05:00:00+00:00', '--job_id', '241', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/sampleDag.py', '--cfg_path', '/var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/tmp6elkq1yb']
+[2020-11-27 11:34:28,539] {standard_task_runner.py:78} INFO - Job 241: Subtask print_data
+[2020-11-27 11:34:28,567] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: First_DAG_for_test.print_data 2020-11-27T05:00:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-11-27 11:34:28,584] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T
+[2020-11-27 11:34:28,585] {bash_operator.py:136} INFO - Temporary script location: /var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/airflowtmpy5cgobwq/print_dataysz889wy
+[2020-11-27 11:34:28,585] {bash_operator.py:146} INFO - Running command: python3 /Users/sundarb/Desktop/print.py
+[2020-11-27 11:34:28,594] {bash_operator.py:153} INFO - Output:
+[2020-11-27 11:34:28,653] {bash_operator.py:157} INFO - Sundar::::::
+[2020-11-27 11:34:28,656] {bash_operator.py:161} INFO - Command exited with return code 0
+[2020-11-27 11:34:28,662] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=First_DAG_for_test, task_id=print_data, execution_date=20201127T050000, start_date=20201127T060428, end_date=20201127T060428
+[2020-11-27 11:34:33,491] {local_task_job.py:102} INFO - Task exited with return code 0

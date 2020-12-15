@@ -1,0 +1,21 @@
+[2020-11-10 14:26:40,071] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: example_bash_operator.run_after_loop 2020-11-10T08:53:37.461792+00:00 [queued]>
+[2020-11-10 14:26:40,081] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: example_bash_operator.run_after_loop 2020-11-10T08:53:37.461792+00:00 [queued]>
+[2020-11-10 14:26:40,081] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-10 14:26:40,081] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-11-10 14:26:40,081] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-10 14:26:40,085] {taskinstance.py:901} INFO - Executing <Task(BashOperator): run_after_loop> on 2020-11-10T08:53:37.461792+00:00
+[2020-11-10 14:26:40,087] {standard_task_runner.py:54} INFO - Started process 28684 to run task
+[2020-11-10 14:26:40,101] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'example_bash_operator', 'run_after_loop', '2020-11-10T08:53:37.461792+00:00', '--job_id', '116', '--pool', 'default_pool', '--raw', '-sd', '/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/example_dags/example_bash_operator.py', '--cfg_path', '/var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/tmpb4m10hvr']
+[2020-11-10 14:26:40,103] {standard_task_runner.py:78} INFO - Job 116: Subtask run_after_loop
+[2020-11-10 14:26:40,127] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: example_bash_operator.run_after_loop 2020-11-10T08:53:37.461792+00:00 [running]> 153.225.168.192.in-addr.arpa
+[2020-11-10 14:26:40,147] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T
+[2020-11-10 14:26:40,148] {bash_operator.py:136} INFO - Temporary script location: /var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/airflowtmp3i4il6t8/run_after_loopp6xf6t3f
+[2020-11-10 14:26:40,149] {bash_operator.py:146} INFO - Running command: echo 1
+[2020-11-10 14:26:40,154] {bash_operator.py:153} INFO - Output:
+[2020-11-10 14:26:40,156] {bash_operator.py:157} INFO - 1
+[2020-11-10 14:26:40,156] {bash_operator.py:161} INFO - Command exited with return code 0
+[2020-11-10 14:26:40,162] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=example_bash_operator, task_id=run_after_loop, execution_date=20201110T085337, start_date=20201110T085640, end_date=20201110T085640
+[2020-11-10 14:26:45,072] {local_task_job.py:102} INFO - Task exited with return code 0

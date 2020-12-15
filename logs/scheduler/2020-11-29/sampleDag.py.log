@@ -1,0 +1,872 @@
+[2020-11-29 05:35:29,600] {scheduler_job.py:155} INFO - Started process (PID=7460) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 05:35:29,621] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 05:35:29,622] {logging_mixin.py:112} INFO - [2020-11-29 05:35:29,622] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 05:35:29,767] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 05:35:30,236] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 05:35:30,789] {scheduler_job.py:1315} INFO - Created <DagRun First_DAG_for_test @ 2020-11-28T23:00:00+00:00: scheduled__2020-11-28T23:00:00+00:00, externally triggered: False>
+[2020-11-29 05:35:30,796] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-28 23:00:00+00:00: scheduled__2020-11-28T23:00:00+00:00, externally triggered: False>
+[2020-11-29 05:35:30,976] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 05:35:30,982] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.start_check 2020-11-28 23:00:00+00:00 [success]> in ORM
+[2020-11-29 05:35:31,013] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.415 seconds
+[2020-11-29 05:51:15,420] {scheduler_job.py:155} INFO - Started process (PID=7518) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 05:51:20,506] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 05:51:20,548] {logging_mixin.py:112} INFO - [2020-11-29 05:51:20,543] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 05:51:24,275] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 05:51:24,473] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 05:51:24,524] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-28 23:00:00+00:00: scheduled__2020-11-28T23:00:00+00:00, externally triggered: False>
+[2020-11-29 05:51:24,643] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 05:51:24,647] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.end 2020-11-28 23:00:00+00:00 [success]> in ORM
+[2020-11-29 05:51:24,676] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 9.262 seconds
+[2020-11-29 06:07:37,934] {scheduler_job.py:155} INFO - Started process (PID=7603) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 06:07:37,943] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 06:07:37,943] {logging_mixin.py:112} INFO - [2020-11-29 06:07:37,943] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 06:07:37,960] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 06:07:37,993] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 06:07:38,017] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-28 23:00:00+00:00: scheduled__2020-11-28T23:00:00+00:00, externally triggered: False>
+[2020-11-29 06:07:38,059] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 06:07:38,066] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.print_data 2020-11-28 23:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 06:07:38,074] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.140 seconds
+[2020-11-29 07:04:56,274] {scheduler_job.py:155} INFO - Started process (PID=7661) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 07:04:56,339] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 07:04:56,347] {logging_mixin.py:112} INFO - [2020-11-29 07:04:56,344] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 07:04:56,434] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 07:04:56,655] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 07:04:57,130] {scheduler_job.py:1315} INFO - Created <DagRun First_DAG_for_test @ 2020-11-29T00:00:00+00:00: scheduled__2020-11-29T00:00:00+00:00, externally triggered: False>
+[2020-11-29 07:04:57,177] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-28 23:00:00+00:00: scheduled__2020-11-28T23:00:00+00:00, externally triggered: False>
+[2020-11-29 07:04:57,328] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 00:00:00+00:00: scheduled__2020-11-29T00:00:00+00:00, externally triggered: False>
+[2020-11-29 07:04:57,931] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 07:04:57,966] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.read_csv 2020-11-28 23:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 07:04:58,005] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.start_check 2020-11-29 00:00:00+00:00 [success]> in ORM
+[2020-11-29 07:04:58,071] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.798 seconds
+[2020-11-29 07:59:38,239] {scheduler_job.py:155} INFO - Started process (PID=7746) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 07:59:38,253] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 07:59:38,254] {logging_mixin.py:112} INFO - [2020-11-29 07:59:38,254] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 07:59:38,273] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 07:59:38,310] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 07:59:38,380] {scheduler_job.py:1315} INFO - Created <DagRun First_DAG_for_test @ 2020-11-29T01:00:00+00:00: scheduled__2020-11-29T01:00:00+00:00, externally triggered: False>
+[2020-11-29 07:59:38,385] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-28 23:00:00+00:00: scheduled__2020-11-28T23:00:00+00:00, externally triggered: False>
+[2020-11-29 07:59:38,393] {logging_mixin.py:112} INFO - [2020-11-29 07:59:38,393] {dagrun.py:311} INFO - Marking run <DagRun First_DAG_for_test @ 2020-11-28 23:00:00+00:00: scheduled__2020-11-28T23:00:00+00:00, externally triggered: False> failed
+[2020-11-29 07:59:38,395] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 00:00:00+00:00: scheduled__2020-11-29T00:00:00+00:00, externally triggered: False>
+[2020-11-29 07:59:38,425] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 01:00:00+00:00: scheduled__2020-11-29T01:00:00+00:00, externally triggered: False>
+[2020-11-29 07:59:38,476] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 07:59:38,479] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.end 2020-11-29 00:00:00+00:00 [success]> in ORM
+[2020-11-29 07:59:38,482] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.start_check 2020-11-29 01:00:00+00:00 [success]> in ORM
+[2020-11-29 07:59:38,489] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.250 seconds
+[2020-11-29 08:00:40,563] {scheduler_job.py:155} INFO - Started process (PID=7811) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:00:40,632] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 08:00:40,642] {logging_mixin.py:112} INFO - [2020-11-29 08:00:40,637] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:00:40,766] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:00:41,016] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 08:00:41,223] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 00:00:00+00:00: scheduled__2020-11-29T00:00:00+00:00, externally triggered: False>
+[2020-11-29 08:00:41,424] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 01:00:00+00:00: scheduled__2020-11-29T01:00:00+00:00, externally triggered: False>
+[2020-11-29 08:00:42,033] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 08:00:42,062] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.print_data 2020-11-29 00:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 08:00:42,110] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.end 2020-11-29 01:00:00+00:00 [success]> in ORM
+[2020-11-29 08:00:42,432] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.870 seconds
+[2020-11-29 08:56:41,137] {scheduler_job.py:155} INFO - Started process (PID=7962) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:56:41,200] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 08:56:41,210] {logging_mixin.py:112} INFO - [2020-11-29 08:56:41,205] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:56:41,306] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:56:41,671] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 08:56:42,815] {scheduler_job.py:1315} INFO - Created <DagRun First_DAG_for_test @ 2020-11-29T02:00:00+00:00: scheduled__2020-11-29T02:00:00+00:00, externally triggered: False>
+[2020-11-29 08:56:42,895] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 00:00:00+00:00: scheduled__2020-11-29T00:00:00+00:00, externally triggered: False>
+[2020-11-29 08:56:43,244] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 01:00:00+00:00: scheduled__2020-11-29T01:00:00+00:00, externally triggered: False>
+[2020-11-29 08:56:43,494] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 02:00:00+00:00: scheduled__2020-11-29T02:00:00+00:00, externally triggered: False>
+[2020-11-29 08:56:44,423] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 08:56:44,458] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.read_csv 2020-11-29 00:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 08:56:44,492] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.print_data 2020-11-29 01:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 08:56:44,517] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.start_check 2020-11-29 02:00:00+00:00 [success]> in ORM
+[2020-11-29 08:56:44,589] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 3.453 seconds
+[2020-11-29 08:59:45,597] {scheduler_job.py:155} INFO - Started process (PID=8061) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:59:45,681] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 08:59:45,697] {logging_mixin.py:112} INFO - [2020-11-29 08:59:45,692] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:59:45,870] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 08:59:46,242] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 08:59:46,620] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 00:00:00+00:00: scheduled__2020-11-29T00:00:00+00:00, externally triggered: False>
+[2020-11-29 08:59:46,788] {logging_mixin.py:112} INFO - [2020-11-29 08:59:46,785] {dagrun.py:311} INFO - Marking run <DagRun First_DAG_for_test @ 2020-11-29 00:00:00+00:00: scheduled__2020-11-29T00:00:00+00:00, externally triggered: False> failed
+[2020-11-29 08:59:46,822] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 01:00:00+00:00: scheduled__2020-11-29T01:00:00+00:00, externally triggered: False>
+[2020-11-29 08:59:47,118] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 02:00:00+00:00: scheduled__2020-11-29T02:00:00+00:00, externally triggered: False>
+[2020-11-29 08:59:48,008] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 08:59:48,061] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.read_csv 2020-11-29 01:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 08:59:48,119] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.end 2020-11-29 02:00:00+00:00 [success]> in ORM
+[2020-11-29 08:59:48,224] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 2.628 seconds
+[2020-11-29 09:02:03,857] {scheduler_job.py:155} INFO - Started process (PID=8151) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:02:03,907] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:02:03,914] {logging_mixin.py:112} INFO - [2020-11-29 09:02:03,911] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:02:05,146] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:02:05,366] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:02:05,647] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 01:00:00+00:00: scheduled__2020-11-29T01:00:00+00:00, externally triggered: False>
+[2020-11-29 09:02:05,828] {logging_mixin.py:112} INFO - [2020-11-29 09:02:05,824] {dagrun.py:311} INFO - Marking run <DagRun First_DAG_for_test @ 2020-11-29 01:00:00+00:00: scheduled__2020-11-29T01:00:00+00:00, externally triggered: False> failed
+[2020-11-29 09:02:05,874] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 02:00:00+00:00: scheduled__2020-11-29T02:00:00+00:00, externally triggered: False>
+[2020-11-29 09:02:06,227] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:02:06,283] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.print_data 2020-11-29 02:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 09:02:06,357] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 2.501 seconds
+[2020-11-29 09:03:32,866] {scheduler_job.py:155} INFO - Started process (PID=8221) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:03:32,872] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:03:32,873] {logging_mixin.py:112} INFO - [2020-11-29 09:03:32,873] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:03:32,885] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:03:32,905] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:03:32,925] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 02:00:00+00:00: scheduled__2020-11-29T02:00:00+00:00, externally triggered: False>
+[2020-11-29 09:03:32,955] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:03:32,960] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.read_csv 2020-11-29 02:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 09:03:32,969] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.103 seconds
+[2020-11-29 09:05:00,739] {scheduler_job.py:155} INFO - Started process (PID=8277) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:05:00,745] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:05:00,747] {logging_mixin.py:112} INFO - [2020-11-29 09:05:00,746] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:05:00,762] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:05:00,787] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:05:00,806] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 02:00:00+00:00: scheduled__2020-11-29T02:00:00+00:00, externally triggered: False>
+[2020-11-29 09:05:00,819] {logging_mixin.py:112} INFO - [2020-11-29 09:05:00,818] {dagrun.py:311} INFO - Marking run <DagRun First_DAG_for_test @ 2020-11-29 02:00:00+00:00: scheduled__2020-11-29T02:00:00+00:00, externally triggered: False> failed
+[2020-11-29 09:05:00,821] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:05:00,823] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.084 seconds
+[2020-11-29 09:06:12,776] {scheduler_job.py:155} INFO - Started process (PID=8350) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:06:12,822] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:06:12,832] {logging_mixin.py:112} INFO - [2020-11-29 09:06:12,827] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:06:12,936] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:06:13,172] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:06:13,347] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:06:13,402] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.626 seconds
+[2020-11-29 09:07:21,763] {scheduler_job.py:155} INFO - Started process (PID=8398) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:07:21,901] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:07:21,990] {logging_mixin.py:112} INFO - [2020-11-29 09:07:21,985] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:07:22,071] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:07:22,242] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:07:22,436] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:07:22,470] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.707 seconds
+[2020-11-29 09:08:26,064] {scheduler_job.py:155} INFO - Started process (PID=8456) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:08:26,070] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:08:26,070] {logging_mixin.py:112} INFO - [2020-11-29 09:08:26,070] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:08:26,077] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:08:26,095] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:08:26,112] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:08:26,116] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.053 seconds
+[2020-11-29 09:09:43,650] {scheduler_job.py:155} INFO - Started process (PID=8495) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:09:43,713] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:09:43,730] {logging_mixin.py:112} INFO - [2020-11-29 09:09:43,727] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:09:43,831] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:09:44,018] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:09:44,224] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:09:44,264] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.615 seconds
+[2020-11-29 09:11:04,030] {scheduler_job.py:155} INFO - Started process (PID=8572) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:11:04,088] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:11:04,096] {logging_mixin.py:112} INFO - [2020-11-29 09:11:04,093] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:11:04,159] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:11:04,393] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:11:04,580] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:11:04,609] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.580 seconds
+[2020-11-29 09:12:20,242] {scheduler_job.py:155} INFO - Started process (PID=8611) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:12:20,317] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:12:20,330] {logging_mixin.py:112} INFO - [2020-11-29 09:12:20,328] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:12:20,398] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:12:20,626] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:12:20,876] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:12:20,910] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.669 seconds
+[2020-11-29 09:13:32,673] {scheduler_job.py:155} INFO - Started process (PID=8671) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:13:32,679] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:13:32,680] {logging_mixin.py:112} INFO - [2020-11-29 09:13:32,680] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:13:32,694] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:13:32,713] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:13:32,730] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:13:32,733] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.060 seconds
+[2020-11-29 09:14:50,225] {scheduler_job.py:155} INFO - Started process (PID=8708) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:14:50,263] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:14:50,270] {logging_mixin.py:112} INFO - [2020-11-29 09:14:50,267] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:14:50,334] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:14:50,558] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:14:50,698] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:14:50,723] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.498 seconds
+[2020-11-29 09:16:17,012] {scheduler_job.py:155} INFO - Started process (PID=8777) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:16:17,019] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:16:17,019] {logging_mixin.py:112} INFO - [2020-11-29 09:16:17,019] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:16:17,029] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:16:17,053] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:16:17,074] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:16:17,082] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.070 seconds
+[2020-11-29 09:17:10,838] {scheduler_job.py:155} INFO - Started process (PID=8845) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:17:10,847] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:17:10,848] {logging_mixin.py:112} INFO - [2020-11-29 09:17:10,848] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:17:10,867] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:17:10,901] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:17:10,923] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:17:10,938] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.100 seconds
+[2020-11-29 09:18:33,095] {scheduler_job.py:155} INFO - Started process (PID=8897) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:18:33,155] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:18:33,176] {logging_mixin.py:112} INFO - [2020-11-29 09:18:33,168] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:18:33,251] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:18:33,515] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:18:33,797] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:18:33,839] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.744 seconds
+[2020-11-29 09:20:12,795] {scheduler_job.py:155} INFO - Started process (PID=8981) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:20:12,801] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:20:12,802] {logging_mixin.py:112} INFO - [2020-11-29 09:20:12,801] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:20:12,811] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:20:12,830] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:20:12,846] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:20:12,850] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.055 seconds
+[2020-11-29 09:21:17,375] {scheduler_job.py:155} INFO - Started process (PID=9020) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:21:17,461] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:21:17,467] {logging_mixin.py:112} INFO - [2020-11-29 09:21:17,465] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:21:17,500] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:21:17,580] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:21:17,646] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:21:17,656] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.281 seconds
+[2020-11-29 09:22:19,275] {scheduler_job.py:155} INFO - Started process (PID=9064) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:22:19,338] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:22:19,346] {logging_mixin.py:112} INFO - [2020-11-29 09:22:19,344] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:22:19,407] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:22:19,602] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:22:19,870] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:22:19,913] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.640 seconds
+[2020-11-29 09:23:42,241] {scheduler_job.py:155} INFO - Started process (PID=9126) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:23:42,302] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:23:42,308] {logging_mixin.py:112} INFO - [2020-11-29 09:23:42,306] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:23:42,385] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:23:42,585] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:23:42,753] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:23:42,783] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.543 seconds
+[2020-11-29 09:25:55,484] {scheduler_job.py:155} INFO - Started process (PID=9235) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:25:55,618] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:25:55,627] {logging_mixin.py:112} INFO - [2020-11-29 09:25:55,624] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:25:55,921] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:25:56,597] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:25:56,985] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:25:57,041] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.558 seconds
+[2020-11-29 09:27:00,840] {scheduler_job.py:155} INFO - Started process (PID=9299) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:27:00,887] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:27:00,898] {logging_mixin.py:112} INFO - [2020-11-29 09:27:00,894] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:27:00,995] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:27:01,242] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:27:01,489] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:27:01,550] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.711 seconds
+[2020-11-29 09:28:03,393] {scheduler_job.py:155} INFO - Started process (PID=9349) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:28:03,401] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:28:03,402] {logging_mixin.py:112} INFO - [2020-11-29 09:28:03,402] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:28:03,415] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:28:03,441] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:28:03,459] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:28:03,464] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.070 seconds
+[2020-11-29 09:29:10,061] {scheduler_job.py:155} INFO - Started process (PID=9397) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:29:10,116] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:29:10,129] {logging_mixin.py:112} INFO - [2020-11-29 09:29:10,124] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:29:10,225] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:29:10,422] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:29:10,591] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:29:10,622] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.561 seconds
+[2020-11-29 09:30:21,514] {scheduler_job.py:155} INFO - Started process (PID=9443) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:30:21,573] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:30:21,582] {logging_mixin.py:112} INFO - [2020-11-29 09:30:21,578] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:30:21,718] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:30:21,965] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:30:22,473] {scheduler_job.py:1315} INFO - Created <DagRun First_DAG_for_test @ 2020-11-29T03:00:00+00:00: scheduled__2020-11-29T03:00:00+00:00, externally triggered: False>
+[2020-11-29 09:30:22,517] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 03:00:00+00:00: scheduled__2020-11-29T03:00:00+00:00, externally triggered: False>
+[2020-11-29 09:30:23,113] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:30:23,160] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.start_check 2020-11-29 03:00:00+00:00 [success]> in ORM
+[2020-11-29 09:30:23,225] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.712 seconds
+[2020-11-29 09:31:26,999] {scheduler_job.py:155} INFO - Started process (PID=9484) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:31:27,066] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:31:27,077] {logging_mixin.py:112} INFO - [2020-11-29 09:31:27,073] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:31:27,161] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:31:27,376] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:31:27,600] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 03:00:00+00:00: scheduled__2020-11-29T03:00:00+00:00, externally triggered: False>
+[2020-11-29 09:31:28,226] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:31:28,276] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.end 2020-11-29 03:00:00+00:00 [success]> in ORM
+[2020-11-29 09:31:28,364] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.366 seconds
+[2020-11-29 09:32:23,448] {scheduler_job.py:155} INFO - Started process (PID=9521) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:32:23,503] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:32:23,513] {logging_mixin.py:112} INFO - [2020-11-29 09:32:23,510] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:32:23,603] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:32:23,829] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:32:24,074] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 03:00:00+00:00: scheduled__2020-11-29T03:00:00+00:00, externally triggered: False>
+[2020-11-29 09:32:24,391] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:32:24,417] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.print_data 2020-11-29 03:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 09:32:24,470] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.023 seconds
+[2020-11-29 09:33:48,150] {scheduler_job.py:155} INFO - Started process (PID=9607) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:33:48,203] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:33:48,220] {logging_mixin.py:112} INFO - [2020-11-29 09:33:48,209] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:33:48,304] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:33:48,483] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:33:48,661] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 03:00:00+00:00: scheduled__2020-11-29T03:00:00+00:00, externally triggered: False>
+[2020-11-29 09:33:48,948] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:33:48,991] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.read_csv 2020-11-29 03:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 09:33:49,065] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.915 seconds
+[2020-11-29 09:35:54,855] {scheduler_job.py:155} INFO - Started process (PID=9705) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:35:54,918] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:35:54,929] {logging_mixin.py:112} INFO - [2020-11-29 09:35:54,924] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:35:55,036] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:35:55,276] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:35:55,520] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 03:00:00+00:00: scheduled__2020-11-29T03:00:00+00:00, externally triggered: False>
+[2020-11-29 09:35:55,666] {logging_mixin.py:112} INFO - [2020-11-29 09:35:55,664] {dagrun.py:311} INFO - Marking run <DagRun First_DAG_for_test @ 2020-11-29 03:00:00+00:00: scheduled__2020-11-29T03:00:00+00:00, externally triggered: False> failed
+[2020-11-29 09:35:55,698] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:35:55,724] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.870 seconds
+[2020-11-29 09:37:33,812] {scheduler_job.py:155} INFO - Started process (PID=9824) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:37:33,822] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 09:37:33,823] {logging_mixin.py:112} INFO - [2020-11-29 09:37:33,823] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:37:33,841] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 09:37:33,883] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 09:37:33,919] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 09:37:33,933] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.121 seconds
+[2020-11-29 20:19:51,868] {scheduler_job.py:155} INFO - Started process (PID=9903) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:19:51,891] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:19:51,892] {logging_mixin.py:112} INFO - [2020-11-29 20:19:51,891] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:19:51,927] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:19:51,961] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:19:52,152] {scheduler_job.py:1315} INFO - Created <DagRun First_DAG_for_test @ 2020-11-29T13:00:00+00:00: scheduled__2020-11-29T13:00:00+00:00, externally triggered: False>
+[2020-11-29 20:19:52,164] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 13:00:00+00:00: scheduled__2020-11-29T13:00:00+00:00, externally triggered: False>
+[2020-11-29 20:19:52,253] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:19:52,262] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.start_check 2020-11-29 13:00:00+00:00 [success]> in ORM
+[2020-11-29 20:19:52,304] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.436 seconds
+[2020-11-29 20:20:27,800] {scheduler_job.py:155} INFO - Started process (PID=9971) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:20:27,832] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:20:28,052] {logging_mixin.py:112} INFO - [2020-11-29 20:20:28,047] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:20:28,177] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:20:28,292] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:20:28,357] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 13:00:00+00:00: scheduled__2020-11-29T13:00:00+00:00, externally triggered: False>
+[2020-11-29 20:20:28,485] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:20:28,503] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.end 2020-11-29 13:00:00+00:00 [success]> in ORM
+[2020-11-29 20:20:28,531] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.731 seconds
+[2020-11-29 20:21:20,096] {scheduler_job.py:155} INFO - Started process (PID=10016) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:21:20,125] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:21:20,127] {logging_mixin.py:112} INFO - [2020-11-29 20:21:20,127] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:21:20,243] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:21:20,336] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:21:20,496] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 13:00:00+00:00: scheduled__2020-11-29T13:00:00+00:00, externally triggered: False>
+[2020-11-29 20:21:20,627] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:21:20,651] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.print_data 2020-11-29 13:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 20:21:20,681] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.585 seconds
+[2020-11-29 20:22:30,506] {scheduler_job.py:155} INFO - Started process (PID=10094) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:22:30,519] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:22:30,524] {logging_mixin.py:112} INFO - [2020-11-29 20:22:30,522] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:22:30,547] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:22:30,598] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:22:30,635] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 13:00:00+00:00: scheduled__2020-11-29T13:00:00+00:00, externally triggered: False>
+[2020-11-29 20:22:30,712] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:22:30,794] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.read_csv 2020-11-29 13:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 20:22:30,801] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.296 seconds
+[2020-11-29 20:23:30,618] {scheduler_job.py:155} INFO - Started process (PID=10148) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:23:30,631] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:23:30,632] {logging_mixin.py:112} INFO - [2020-11-29 20:23:30,632] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:23:30,647] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:23:30,674] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:23:30,700] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 13:00:00+00:00: scheduled__2020-11-29T13:00:00+00:00, externally triggered: False>
+[2020-11-29 20:23:30,717] {logging_mixin.py:112} INFO - [2020-11-29 20:23:30,717] {dagrun.py:311} INFO - Marking run <DagRun First_DAG_for_test @ 2020-11-29 13:00:00+00:00: scheduled__2020-11-29T13:00:00+00:00, externally triggered: False> failed
+[2020-11-29 20:23:30,722] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:23:30,724] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.106 seconds
+[2020-11-29 20:24:22,696] {scheduler_job.py:155} INFO - Started process (PID=10191) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:24:22,704] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:24:22,705] {logging_mixin.py:112} INFO - [2020-11-29 20:24:22,705] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:24:22,737] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:24:22,757] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:24:22,790] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:24:22,797] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.101 seconds
+[2020-11-29 20:25:14,762] {scheduler_job.py:155} INFO - Started process (PID=10242) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:25:14,769] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:25:14,770] {logging_mixin.py:112} INFO - [2020-11-29 20:25:14,770] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:25:14,782] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:25:14,807] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:25:14,828] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:25:14,834] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.072 seconds
+[2020-11-29 20:26:06,833] {scheduler_job.py:155} INFO - Started process (PID=10299) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:26:06,844] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:26:06,845] {logging_mixin.py:112} INFO - [2020-11-29 20:26:06,845] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:26:06,860] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:26:07,063] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:26:07,082] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:26:07,087] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.254 seconds
+[2020-11-29 20:26:58,898] {scheduler_job.py:155} INFO - Started process (PID=10339) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:26:58,907] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:26:58,908] {logging_mixin.py:112} INFO - [2020-11-29 20:26:58,908] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:26:58,918] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:26:58,938] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:26:58,956] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:26:58,959] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.061 seconds
+[2020-11-29 20:27:52,325] {scheduler_job.py:155} INFO - Started process (PID=10387) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:27:52,333] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:27:52,334] {logging_mixin.py:112} INFO - [2020-11-29 20:27:52,334] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:27:52,345] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:27:52,369] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:27:52,388] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:27:52,392] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.067 seconds
+[2020-11-29 20:28:44,509] {scheduler_job.py:155} INFO - Started process (PID=10456) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:28:44,524] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:28:44,526] {logging_mixin.py:112} INFO - [2020-11-29 20:28:44,526] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:28:44,534] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:28:44,568] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:28:44,588] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:28:44,593] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.083 seconds
+[2020-11-29 20:29:36,662] {scheduler_job.py:155} INFO - Started process (PID=10528) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:29:36,681] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:29:36,682] {logging_mixin.py:112} INFO - [2020-11-29 20:29:36,681] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:29:36,691] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:29:36,712] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:29:36,729] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:29:36,734] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.072 seconds
+[2020-11-29 20:30:31,029] {scheduler_job.py:155} INFO - Started process (PID=10610) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:30:31,041] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 20:30:31,043] {logging_mixin.py:112} INFO - [2020-11-29 20:30:31,042] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:30:31,053] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 20:30:31,076] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 20:30:31,152] {scheduler_job.py:1315} INFO - Created <DagRun First_DAG_for_test @ 2020-11-29T14:00:00+00:00: scheduled__2020-11-29T14:00:00+00:00, externally triggered: False>
+[2020-11-29 20:30:31,157] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 14:00:00+00:00: scheduled__2020-11-29T14:00:00+00:00, externally triggered: False>
+[2020-11-29 20:30:31,321] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 20:30:31,421] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.start_check 2020-11-29 14:00:00+00:00 [success]> in ORM
+[2020-11-29 20:30:31,514] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.485 seconds
+[2020-11-29 21:01:25,484] {scheduler_job.py:155} INFO - Started process (PID=10736) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:01:25,543] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:01:25,562] {logging_mixin.py:112} INFO - [2020-11-29 21:01:25,556] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:01:25,677] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:01:25,786] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:01:25,865] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 14:00:00+00:00: scheduled__2020-11-29T14:00:00+00:00, externally triggered: False>
+[2020-11-29 21:01:26,092] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:01:26,103] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.end 2020-11-29 14:00:00+00:00 [success]> in ORM
+[2020-11-29 21:01:26,132] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.649 seconds
+[2020-11-29 21:02:20,812] {scheduler_job.py:155} INFO - Started process (PID=10777) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:02:21,247] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:02:21,262] {logging_mixin.py:112} INFO - [2020-11-29 21:02:21,262] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:02:21,511] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:02:21,858] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:02:22,008] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 14:00:00+00:00: scheduled__2020-11-29T14:00:00+00:00, externally triggered: False>
+[2020-11-29 21:02:22,167] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:02:22,178] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.print_data 2020-11-29 14:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 21:02:22,212] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.401 seconds
+[2020-11-29 21:03:22,946] {scheduler_job.py:155} INFO - Started process (PID=10843) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:03:22,954] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:03:22,954] {logging_mixin.py:112} INFO - [2020-11-29 21:03:22,954] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:03:22,971] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:03:22,991] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:03:23,016] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 14:00:00+00:00: scheduled__2020-11-29T14:00:00+00:00, externally triggered: False>
+[2020-11-29 21:03:23,051] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:03:23,055] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.read_csv 2020-11-29 14:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 21:03:23,062] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.116 seconds
+[2020-11-29 21:04:21,773] {scheduler_job.py:155} INFO - Started process (PID=10932) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:04:21,781] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:04:21,782] {logging_mixin.py:112} INFO - [2020-11-29 21:04:21,782] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:04:21,791] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:04:21,812] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:04:21,829] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 14:00:00+00:00: scheduled__2020-11-29T14:00:00+00:00, externally triggered: False>
+[2020-11-29 21:04:21,843] {logging_mixin.py:112} INFO - [2020-11-29 21:04:21,842] {dagrun.py:311} INFO - Marking run <DagRun First_DAG_for_test @ 2020-11-29 14:00:00+00:00: scheduled__2020-11-29T14:00:00+00:00, externally triggered: False> failed
+[2020-11-29 21:04:21,847] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:04:21,849] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.076 seconds
+[2020-11-29 21:05:13,894] {scheduler_job.py:155} INFO - Started process (PID=10970) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:05:13,908] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:05:13,914] {logging_mixin.py:112} INFO - [2020-11-29 21:05:13,913] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:05:13,935] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:05:13,986] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:05:14,021] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:05:14,028] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.134 seconds
+[2020-11-29 21:06:05,966] {scheduler_job.py:155} INFO - Started process (PID=11016) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:06:06,044] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:06:06,044] {logging_mixin.py:112} INFO - [2020-11-29 21:06:06,044] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:06:06,062] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:06:06,088] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:06:06,111] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:06:06,115] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.150 seconds
+[2020-11-29 21:06:58,072] {scheduler_job.py:155} INFO - Started process (PID=11098) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:06:58,083] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:06:58,084] {logging_mixin.py:112} INFO - [2020-11-29 21:06:58,084] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:06:58,096] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:06:58,132] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:06:58,160] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:06:58,168] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.096 seconds
+[2020-11-29 21:07:50,226] {scheduler_job.py:155} INFO - Started process (PID=11133) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:07:50,234] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:07:50,235] {logging_mixin.py:112} INFO - [2020-11-29 21:07:50,235] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:07:50,244] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:07:50,266] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:07:50,286] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:07:50,292] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.066 seconds
+[2020-11-29 21:08:42,415] {scheduler_job.py:155} INFO - Started process (PID=11168) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:08:42,423] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:08:42,424] {logging_mixin.py:112} INFO - [2020-11-29 21:08:42,423] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:08:42,437] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:08:42,460] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:08:42,492] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:08:42,500] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.086 seconds
+[2020-11-29 21:09:34,635] {scheduler_job.py:155} INFO - Started process (PID=11224) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:09:34,657] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:09:34,659] {logging_mixin.py:112} INFO - [2020-11-29 21:09:34,658] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:09:34,673] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:09:34,697] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:09:34,716] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:09:34,721] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.085 seconds
+[2020-11-29 21:10:26,827] {scheduler_job.py:155} INFO - Started process (PID=11267) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:10:26,838] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:10:26,839] {logging_mixin.py:112} INFO - [2020-11-29 21:10:26,839] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:10:26,850] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:10:26,873] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:10:26,894] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:10:26,899] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.072 seconds
+[2020-11-29 21:11:19,034] {scheduler_job.py:155} INFO - Started process (PID=11296) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:11:19,042] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:11:19,043] {logging_mixin.py:112} INFO - [2020-11-29 21:11:19,043] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:11:19,051] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:11:19,077] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:11:19,099] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:11:19,103] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.069 seconds
+[2020-11-29 21:12:11,262] {scheduler_job.py:155} INFO - Started process (PID=11331) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:12:11,273] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:12:11,274] {logging_mixin.py:112} INFO - [2020-11-29 21:12:11,273] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:12:11,290] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:12:11,314] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:12:11,335] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:12:11,341] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.079 seconds
+[2020-11-29 21:13:03,341] {scheduler_job.py:155} INFO - Started process (PID=11379) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:13:03,376] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:13:03,377] {logging_mixin.py:112} INFO - [2020-11-29 21:13:03,377] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:13:03,392] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:13:03,414] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:13:03,433] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:13:03,437] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.095 seconds
+[2020-11-29 21:13:55,459] {scheduler_job.py:155} INFO - Started process (PID=11422) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:13:55,476] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:13:55,478] {logging_mixin.py:112} INFO - [2020-11-29 21:13:55,477] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:13:55,504] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:13:55,535] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:13:55,557] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:13:55,561] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.102 seconds
+[2020-11-29 21:14:47,576] {scheduler_job.py:155} INFO - Started process (PID=11459) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:14:47,587] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:14:47,587] {logging_mixin.py:112} INFO - [2020-11-29 21:14:47,587] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:14:47,603] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:14:47,627] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:14:47,649] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:14:47,655] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.079 seconds
+[2020-11-29 21:15:39,637] {scheduler_job.py:155} INFO - Started process (PID=11511) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:15:39,646] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:15:39,647] {logging_mixin.py:112} INFO - [2020-11-29 21:15:39,647] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:15:39,657] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:15:39,683] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:15:39,734] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:15:39,738] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.101 seconds
+[2020-11-29 21:16:31,723] {scheduler_job.py:155} INFO - Started process (PID=11549) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:16:31,744] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:16:31,745] {logging_mixin.py:112} INFO - [2020-11-29 21:16:31,744] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:16:31,754] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:16:31,776] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:16:31,794] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:16:31,799] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.076 seconds
+[2020-11-29 21:17:23,789] {scheduler_job.py:155} INFO - Started process (PID=11582) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:17:23,796] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:17:23,796] {logging_mixin.py:112} INFO - [2020-11-29 21:17:23,796] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:17:23,804] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:17:23,823] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:17:23,840] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:17:23,844] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.056 seconds
+[2020-11-29 21:18:15,844] {scheduler_job.py:155} INFO - Started process (PID=11625) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:18:15,854] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:18:15,855] {logging_mixin.py:112} INFO - [2020-11-29 21:18:15,855] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:18:15,868] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:18:15,896] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:18:15,913] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:18:15,917] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.073 seconds
+[2020-11-29 21:19:07,940] {scheduler_job.py:155} INFO - Started process (PID=11684) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:19:07,948] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:19:07,949] {logging_mixin.py:112} INFO - [2020-11-29 21:19:07,948] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:19:07,958] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:19:07,980] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:19:07,998] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:19:08,003] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.063 seconds
+[2020-11-29 21:20:00,091] {scheduler_job.py:155} INFO - Started process (PID=11747) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:20:00,116] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:20:00,117] {logging_mixin.py:112} INFO - [2020-11-29 21:20:00,117] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:20:00,134] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:20:00,164] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:20:00,193] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:20:00,196] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.105 seconds
+[2020-11-29 21:20:52,284] {scheduler_job.py:155} INFO - Started process (PID=11847) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:20:52,323] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:20:52,325] {logging_mixin.py:112} INFO - [2020-11-29 21:20:52,324] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:20:52,344] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:20:52,379] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:20:52,426] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:20:52,432] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.149 seconds
+[2020-11-29 21:21:44,699] {scheduler_job.py:155} INFO - Started process (PID=11908) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:21:45,009] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:21:45,011] {logging_mixin.py:112} INFO - [2020-11-29 21:21:45,010] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:21:45,138] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:21:45,423] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:21:45,512] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:21:45,518] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.820 seconds
+[2020-11-29 21:22:36,773] {scheduler_job.py:155} INFO - Started process (PID=11967) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:22:36,788] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:22:36,790] {logging_mixin.py:112} INFO - [2020-11-29 21:22:36,789] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:22:36,818] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:22:36,860] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:22:36,895] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:22:36,902] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.130 seconds
+[2020-11-29 21:23:28,892] {scheduler_job.py:155} INFO - Started process (PID=12006) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:23:28,922] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:23:28,924] {logging_mixin.py:112} INFO - [2020-11-29 21:23:28,923] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:23:28,970] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:23:29,025] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:23:29,085] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:23:29,095] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.204 seconds
+[2020-11-29 21:24:20,947] {scheduler_job.py:155} INFO - Started process (PID=12057) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:24:20,969] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:24:20,969] {logging_mixin.py:112} INFO - [2020-11-29 21:24:20,969] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:24:20,979] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:24:21,000] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:24:21,022] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:24:21,029] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.082 seconds
+[2020-11-29 21:25:13,042] {scheduler_job.py:155} INFO - Started process (PID=12108) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:25:13,052] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:25:13,053] {logging_mixin.py:112} INFO - [2020-11-29 21:25:13,053] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:25:13,069] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:25:13,098] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:25:13,117] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:25:13,122] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.080 seconds
+[2020-11-29 21:26:05,125] {scheduler_job.py:155} INFO - Started process (PID=12155) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:26:05,133] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:26:05,134] {logging_mixin.py:112} INFO - [2020-11-29 21:26:05,134] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:26:05,146] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:26:05,167] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:26:05,188] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:26:05,191] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.066 seconds
+[2020-11-29 21:26:57,211] {scheduler_job.py:155} INFO - Started process (PID=12230) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:26:57,234] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:26:57,237] {logging_mixin.py:112} INFO - [2020-11-29 21:26:57,236] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:26:57,266] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:26:57,294] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:26:57,335] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:26:57,342] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.131 seconds
+[2020-11-29 21:27:49,352] {scheduler_job.py:155} INFO - Started process (PID=12258) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:27:49,369] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:27:49,370] {logging_mixin.py:112} INFO - [2020-11-29 21:27:49,370] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:27:49,380] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:27:49,400] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:27:49,422] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:27:49,426] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.074 seconds
+[2020-11-29 21:28:41,496] {scheduler_job.py:155} INFO - Started process (PID=12288) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:28:41,504] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:28:41,505] {logging_mixin.py:112} INFO - [2020-11-29 21:28:41,505] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:28:41,512] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:28:41,531] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:28:41,548] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:28:41,551] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.055 seconds
+[2020-11-29 21:29:33,645] {scheduler_job.py:155} INFO - Started process (PID=12326) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:29:33,654] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:29:33,654] {logging_mixin.py:112} INFO - [2020-11-29 21:29:33,654] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:29:33,665] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:29:33,688] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:29:33,704] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:29:33,708] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.063 seconds
+[2020-11-29 21:30:25,829] {scheduler_job.py:155} INFO - Started process (PID=12361) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:30:25,837] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:30:25,838] {logging_mixin.py:112} INFO - [2020-11-29 21:30:25,838] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:30:25,851] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:30:25,875] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:30:25,951] {scheduler_job.py:1315} INFO - Created <DagRun First_DAG_for_test @ 2020-11-29T15:00:00+00:00: scheduled__2020-11-29T15:00:00+00:00, externally triggered: False>
+[2020-11-29 21:30:25,955] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 15:00:00+00:00: scheduled__2020-11-29T15:00:00+00:00, externally triggered: False>
+[2020-11-29 21:30:26,003] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:30:26,005] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.start_check 2020-11-29 15:00:00+00:00 [success]> in ORM
+[2020-11-29 21:30:26,013] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.185 seconds
+[2020-11-29 21:31:17,533] {scheduler_job.py:155} INFO - Started process (PID=12401) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:31:17,547] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:31:17,548] {logging_mixin.py:112} INFO - [2020-11-29 21:31:17,547] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:31:17,561] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:31:17,592] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:31:17,619] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 15:00:00+00:00: scheduled__2020-11-29T15:00:00+00:00, externally triggered: False>
+[2020-11-29 21:31:17,682] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:31:17,691] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.end 2020-11-29 15:00:00+00:00 [success]> in ORM
+[2020-11-29 21:31:17,705] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.172 seconds
+[2020-11-29 21:32:09,612] {scheduler_job.py:155} INFO - Started process (PID=12441) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:32:09,622] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:32:09,623] {logging_mixin.py:112} INFO - [2020-11-29 21:32:09,622] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:32:09,635] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:32:09,659] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:32:09,681] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 15:00:00+00:00: scheduled__2020-11-29T15:00:00+00:00, externally triggered: False>
+[2020-11-29 21:32:09,714] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:32:09,717] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.print_data 2020-11-29 15:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 21:32:09,723] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.111 seconds
+[2020-11-29 21:33:09,837] {scheduler_job.py:155} INFO - Started process (PID=12481) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:33:09,849] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:33:09,850] {logging_mixin.py:112} INFO - [2020-11-29 21:33:09,849] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:33:09,864] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:33:09,888] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:33:09,907] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 15:00:00+00:00: scheduled__2020-11-29T15:00:00+00:00, externally triggered: False>
+[2020-11-29 21:33:09,935] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:33:09,938] {scheduler_job.py:1668} INFO - Creating / updating <TaskInstance: First_DAG_for_test.read_csv 2020-11-29 15:00:00+00:00 [scheduled]> in ORM
+[2020-11-29 21:33:09,946] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.109 seconds
+[2020-11-29 21:34:08,337] {scheduler_job.py:155} INFO - Started process (PID=12517) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:34:08,345] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:34:08,346] {logging_mixin.py:112} INFO - [2020-11-29 21:34:08,345] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:34:08,355] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:34:08,374] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:34:08,388] {scheduler_job.py:771} INFO - Examining DAG run <DagRun First_DAG_for_test @ 2020-11-29 15:00:00+00:00: scheduled__2020-11-29T15:00:00+00:00, externally triggered: False>
+[2020-11-29 21:34:08,399] {logging_mixin.py:112} INFO - [2020-11-29 21:34:08,399] {dagrun.py:311} INFO - Marking run <DagRun First_DAG_for_test @ 2020-11-29 15:00:00+00:00: scheduled__2020-11-29T15:00:00+00:00, externally triggered: False> failed
+[2020-11-29 21:34:08,403] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:34:08,405] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.068 seconds
+[2020-11-29 21:35:00,444] {scheduler_job.py:155} INFO - Started process (PID=12545) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:35:00,452] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:35:00,453] {logging_mixin.py:112} INFO - [2020-11-29 21:35:00,453] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:35:00,462] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:35:00,485] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:35:00,504] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:35:00,509] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.065 seconds
+[2020-11-29 21:35:52,527] {scheduler_job.py:155} INFO - Started process (PID=12600) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:35:52,553] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:35:52,554] {logging_mixin.py:112} INFO - [2020-11-29 21:35:52,553] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:35:52,571] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:35:52,599] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:35:52,620] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:35:52,624] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.097 seconds
+[2020-11-29 21:36:44,687] {scheduler_job.py:155} INFO - Started process (PID=12629) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:36:44,695] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:36:44,696] {logging_mixin.py:112} INFO - [2020-11-29 21:36:44,696] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:36:44,704] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:36:44,727] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:36:44,744] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:36:44,749] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.062 seconds
+[2020-11-29 21:37:36,914] {scheduler_job.py:155} INFO - Started process (PID=12671) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:37:36,924] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:37:36,925] {logging_mixin.py:112} INFO - [2020-11-29 21:37:36,924] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:37:36,936] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:37:36,957] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:37:36,977] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:37:36,983] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.069 seconds
+[2020-11-29 21:38:29,207] {scheduler_job.py:155} INFO - Started process (PID=12700) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:38:29,217] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:38:29,218] {logging_mixin.py:112} INFO - [2020-11-29 21:38:29,218] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:38:29,228] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:38:29,250] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:38:29,265] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:38:29,270] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.063 seconds
+[2020-11-29 21:39:21,461] {scheduler_job.py:155} INFO - Started process (PID=12727) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:39:21,480] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:39:21,481] {logging_mixin.py:112} INFO - [2020-11-29 21:39:21,480] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:39:21,490] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:39:21,510] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:39:21,529] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:39:21,533] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.072 seconds
+[2020-11-29 21:40:13,667] {scheduler_job.py:155} INFO - Started process (PID=12756) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:40:13,676] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:40:13,677] {logging_mixin.py:112} INFO - [2020-11-29 21:40:13,677] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:40:13,686] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:40:13,707] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:40:13,723] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:40:13,726] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.058 seconds
+[2020-11-29 21:41:05,920] {scheduler_job.py:155} INFO - Started process (PID=12786) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:41:05,928] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:41:05,929] {logging_mixin.py:112} INFO - [2020-11-29 21:41:05,929] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:41:05,937] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:41:05,958] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:41:05,974] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:41:05,978] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.058 seconds
+[2020-11-29 21:41:58,194] {scheduler_job.py:155} INFO - Started process (PID=12849) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:41:58,206] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:41:58,207] {logging_mixin.py:112} INFO - [2020-11-29 21:41:58,207] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:41:58,230] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:41:58,269] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:41:58,289] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:41:58,294] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.100 seconds
+[2020-11-29 21:58:09,477] {scheduler_job.py:155} INFO - Started process (PID=12926) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:58:10,615] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 21:58:10,649] {logging_mixin.py:112} INFO - [2020-11-29 21:58:10,624] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:58:12,359] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 21:58:17,447] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 21:58:20,316] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 21:58:21,066] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 11.589 seconds
+[2020-11-29 22:13:45,666] {scheduler_job.py:155} INFO - Started process (PID=13012) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:13:46,025] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:13:46,039] {logging_mixin.py:112} INFO - [2020-11-29 22:13:46,035] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:13:46,534] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:13:47,604] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:13:48,285] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:13:48,487] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 2.821 seconds
+[2020-11-29 22:17:01,790] {scheduler_job.py:155} INFO - Started process (PID=13083) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:17:01,803] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:17:01,804] {logging_mixin.py:112} INFO - [2020-11-29 22:17:01,803] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:17:01,891] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:17:01,973] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:17:02,097] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:17:02,109] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.320 seconds
+[2020-11-29 22:17:38,225] {scheduler_job.py:155} INFO - Started process (PID=13121) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:17:38,253] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:17:38,254] {logging_mixin.py:112} INFO - [2020-11-29 22:17:38,254] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:17:38,383] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:17:38,492] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:17:38,614] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:17:38,686] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.462 seconds
+[2020-11-29 22:18:24,727] {scheduler_job.py:155} INFO - Started process (PID=13153) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:18:24,817] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:18:24,825] {logging_mixin.py:112} INFO - [2020-11-29 22:18:24,825] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:18:24,991] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:18:25,107] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:18:25,340] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:18:25,383] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.657 seconds
+[2020-11-29 22:19:16,468] {scheduler_job.py:155} INFO - Started process (PID=13222) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:19:16,502] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:19:16,503] {logging_mixin.py:112} INFO - [2020-11-29 22:19:16,502] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:19:16,699] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:19:16,885] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:19:17,013] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:19:17,042] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.575 seconds
+[2020-11-29 22:20:08,545] {scheduler_job.py:155} INFO - Started process (PID=13271) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:20:08,557] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:20:08,558] {logging_mixin.py:112} INFO - [2020-11-29 22:20:08,558] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:20:08,579] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:20:08,624] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:20:08,759] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:20:08,776] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.231 seconds
+[2020-11-29 22:21:01,173] {scheduler_job.py:155} INFO - Started process (PID=13306) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:21:01,236] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:21:01,238] {logging_mixin.py:112} INFO - [2020-11-29 22:21:01,237] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:21:01,261] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:21:01,298] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:21:01,322] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:21:01,330] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.157 seconds
+[2020-11-29 22:21:53,412] {scheduler_job.py:155} INFO - Started process (PID=13367) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:21:53,463] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:21:53,465] {logging_mixin.py:112} INFO - [2020-11-29 22:21:53,464] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:21:53,658] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:21:53,929] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:21:54,388] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:21:54,627] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 1.214 seconds
+[2020-11-29 22:22:45,499] {scheduler_job.py:155} INFO - Started process (PID=13436) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:22:45,509] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:22:45,510] {logging_mixin.py:112} INFO - [2020-11-29 22:22:45,509] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:22:45,523] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:22:45,554] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:22:45,588] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:22:45,597] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.098 seconds
+[2020-11-29 22:23:37,642] {scheduler_job.py:155} INFO - Started process (PID=13484) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:23:37,654] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:23:37,656] {logging_mixin.py:112} INFO - [2020-11-29 22:23:37,655] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:23:37,672] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:23:37,708] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:23:37,753] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:23:37,762] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.120 seconds
+[2020-11-29 22:24:29,921] {scheduler_job.py:155} INFO - Started process (PID=13520) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:24:30,164] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:24:30,195] {logging_mixin.py:112} INFO - [2020-11-29 22:24:30,190] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:24:30,543] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:24:31,216] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:24:32,065] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:24:32,163] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 2.242 seconds
+[2020-11-29 22:25:22,011] {scheduler_job.py:155} INFO - Started process (PID=13568) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:25:22,042] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:25:22,044] {logging_mixin.py:112} INFO - [2020-11-29 22:25:22,043] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:25:22,139] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:25:22,253] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:25:22,428] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:25:22,461] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.450 seconds
+[2020-11-29 22:26:14,127] {scheduler_job.py:155} INFO - Started process (PID=13607) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:26:14,148] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:26:14,150] {logging_mixin.py:112} INFO - [2020-11-29 22:26:14,150] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:26:14,235] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:26:14,389] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:26:14,498] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:26:14,528] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.402 seconds
+[2020-11-29 22:27:06,241] {scheduler_job.py:155} INFO - Started process (PID=13661) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:27:06,255] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:27:06,257] {logging_mixin.py:112} INFO - [2020-11-29 22:27:06,256] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:27:06,270] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:27:06,301] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:27:06,328] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:27:06,338] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.097 seconds
+[2020-11-29 22:27:58,355] {scheduler_job.py:155} INFO - Started process (PID=13711) to work on /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:27:58,370] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/sampleDag.py for tasks to queue
+[2020-11-29 22:27:58,371] {logging_mixin.py:112} INFO - [2020-11-29 22:27:58,371] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:27:58,382] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['First_DAG_for_test']) retrieved from /Users/sundarb/airflow/dags/sampleDag.py
+[2020-11-29 22:27:58,407] {scheduler_job.py:1305} INFO - Processing First_DAG_for_test
+[2020-11-29 22:27:58,427] {scheduler_job.py:459} INFO - Skipping SLA check for <DAG: First_DAG_for_test> because no tasks in DAG have SLAs
+[2020-11-29 22:27:58,431] {scheduler_job.py:163} INFO - Processing /Users/sundarb/airflow/dags/sampleDag.py took 0.076 seconds

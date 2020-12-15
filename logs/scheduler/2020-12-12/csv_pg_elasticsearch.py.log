@@ -1,0 +1,18 @@
+[2020-12-12 14:12:56,964] {scheduler_job.py:154} INFO - Started process (PID=99137) to work on /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-12 14:12:56,987] {logging_mixin.py:112} INFO - [2020-12-12 14:12:56,987] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-12 14:12:56,988] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py for tasks to queue
+[2020-12-12 14:12:56,988] {logging_mixin.py:112} INFO - [2020-12-12 14:12:56,988] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-12 14:12:57,001] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Write_data_to_postgres_then_to_elasticsearch']) retrieved from /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-12 14:12:57,017] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py took 0.052 seconds
+[2020-12-12 19:43:11,152] {scheduler_job.py:154} INFO - Started process (PID=99180) to work on /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-12 19:43:11,173] {logging_mixin.py:112} INFO - [2020-12-12 19:43:11,173] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-12 19:43:11,174] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py for tasks to queue
+[2020-12-12 19:43:11,174] {logging_mixin.py:112} INFO - [2020-12-12 19:43:11,174] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-12 19:43:11,188] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Write_data_to_postgres_then_to_elasticsearch']) retrieved from /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-12 19:43:11,203] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py took 0.050 seconds
+[2020-12-13 02:04:51,736] {scheduler_job.py:154} INFO - Started process (PID=99280) to work on /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-13 02:04:51,817] {logging_mixin.py:112} INFO - [2020-12-13 02:04:51,817] {__init__.py:50} INFO - Using executor SequentialExecutor
+[2020-12-13 02:04:51,819] {scheduler_job.py:1589} INFO - Processing file /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py for tasks to queue
+[2020-12-13 02:04:51,820] {logging_mixin.py:112} INFO - [2020-12-13 02:04:51,820] {dagbag.py:417} INFO - Filling up the DagBag from /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-13 02:04:51,840] {scheduler_job.py:1601} INFO - DAG(s) dict_keys(['Write_data_to_postgres_then_to_elasticsearch']) retrieved from /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py
+[2020-12-13 02:04:51,872] {scheduler_job.py:162} INFO - Processing /Users/sundarb/airflow/dags/csv_pg_elasticsearch.py took 0.136 seconds

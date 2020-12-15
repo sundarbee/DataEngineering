@@ -1,0 +1,21 @@
+[2020-11-10 13:18:08,305] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: tutorial.print_date 2020-11-08T00:00:00+00:00 [queued]>
+[2020-11-10 13:18:08,313] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: tutorial.print_date 2020-11-08T00:00:00+00:00 [queued]>
+[2020-11-10 13:18:08,314] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-10 13:18:08,314] {taskinstance.py:881} INFO - Starting attempt 1 of 2
+[2020-11-10 13:18:08,314] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-11-10 13:18:08,318] {taskinstance.py:901} INFO - Executing <Task(BashOperator): print_date> on 2020-11-08T00:00:00+00:00
+[2020-11-10 13:18:08,320] {standard_task_runner.py:54} INFO - Started process 25530 to run task
+[2020-11-10 13:18:08,335] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'tutorial', 'print_date', '2020-11-08T00:00:00+00:00', '--job_id', '7', '--pool', 'default_pool', '--raw', '-sd', '/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/example_dags/tutorial.py', '--cfg_path', '/var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/tmpitsiz7pd']
+[2020-11-10 13:18:08,336] {standard_task_runner.py:78} INFO - Job 7: Subtask print_date
+[2020-11-10 13:18:08,360] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: tutorial.print_date 2020-11-08T00:00:00+00:00 [running]> 153.225.168.192.in-addr.arpa
+[2020-11-10 13:18:08,375] {bash_operator.py:113} INFO - Tmp dir root location: 
+ /var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T
+[2020-11-10 13:18:08,377] {bash_operator.py:136} INFO - Temporary script location: /var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/airflowtmpewiflebs/print_date_bgvkuej
+[2020-11-10 13:18:08,377] {bash_operator.py:146} INFO - Running command: date
+[2020-11-10 13:18:08,383] {bash_operator.py:153} INFO - Output:
+[2020-11-10 13:18:08,397] {bash_operator.py:157} INFO - Tue Nov 10 13:18:08 IST 2020
+[2020-11-10 13:18:08,397] {bash_operator.py:161} INFO - Command exited with return code 0
+[2020-11-10 13:18:08,403] {taskinstance.py:1070} INFO - Marking task as SUCCESS.dag_id=tutorial, task_id=print_date, execution_date=20201108T000000, start_date=20201110T074808, end_date=20201110T074808
+[2020-11-10 13:18:13,306] {local_task_job.py:102} INFO - Task exited with return code 0

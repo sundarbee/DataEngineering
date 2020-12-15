@@ -1,0 +1,17 @@
+[2020-12-14 20:10:27,889] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Airflow_task.Data_from_table2 2020-12-14T14:35:00+00:00 [queued]>
+[2020-12-14 20:10:27,904] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Airflow_task.Data_from_table2 2020-12-14T14:35:00+00:00 [queued]>
+[2020-12-14 20:10:27,904] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-14 20:10:27,904] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-12-14 20:10:27,904] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-14 20:10:27,911] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): Data_from_table2> on 2020-12-14T14:35:00+00:00
+[2020-12-14 20:10:27,913] {standard_task_runner.py:54} INFO - Started process 34785 to run task
+[2020-12-14 20:10:27,951] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'Airflow_task', 'Data_from_table2', '2020-12-14T14:35:00+00:00', '--job_id', '1218', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/server-elastic.py', '--cfg_path', '/var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/tmpfq7bw87k']
+[2020-12-14 20:10:27,953] {standard_task_runner.py:78} INFO - Job 1218: Subtask Data_from_table2
+[2020-12-14 20:10:27,995] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: Airflow_task.Data_from_table2 2020-12-14T14:35:00+00:00 [running]> 153.225.168.192.in-addr.arpa
+[2020-12-14 20:10:28,024] {logging_mixin.py:112} INFO - Error::::: FATAL:  database "test_aut" does not exist
+[2020-12-14 20:10:28,024] {logging_mixin.py:112} INFO - 
+[2020-12-14 20:10:28,024] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-12-14 20:10:28,028] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=Airflow_task, task_id=Data_from_table2, execution_date=20201214T143500, start_date=20201214T144027, end_date=20201214T144028
+[2020-12-14 20:10:32,904] {local_task_job.py:102} INFO - Task exited with return code 0

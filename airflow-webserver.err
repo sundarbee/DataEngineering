@@ -1,0 +1,39 @@
+Traceback (most recent call last):
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/psutil/_psosx.py", line 356, in catch_zombie
+    yield
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/psutil/_psosx.py", line 422, in cmdline
+    return cext.proc_cmdline(self.pid)
+ProcessLookupError: [Errno 3] No such process
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/sundarb/Documents/anaconda3/bin/airflow", line 37, in <module>
+    args.func(args)
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/utils/cli.py", line 76, in wrapper
+    return f(*args, **kwargs)
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/bin/cli.py", line 1172, in webserver
+    monitor_gunicorn(gunicorn_master_proc.pid)
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/bin/cli.py", line 1141, in monitor_gunicorn
+    'webserver', 'reload_on_plugin_change', fallback=False
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/bin/cli.py", line 948, in start
+    self._check_workers()
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/bin/cli.py", line 963, in _check_workers
+    num_ready_workers_running = self._get_num_ready_workers_running()
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/bin/cli.py", line 873, in _get_num_ready_workers_running
+    ready_workers = [proc for proc in workers if ready_prefix_on_cmdline(proc)]
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/bin/cli.py", line 873, in <listcomp>
+    ready_workers = [proc for proc in workers if ready_prefix_on_cmdline(proc)]
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/airflow/bin/cli.py", line 866, in ready_prefix_on_cmdline
+    cmdline = proc.cmdline()
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/psutil/__init__.py", line 791, in cmdline
+    return self._proc.cmdline()
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/psutil/_psosx.py", line 338, in wrapper
+    return fun(self, *args, **kwargs)
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/psutil/_psosx.py", line 422, in cmdline
+    return cext.proc_cmdline(self.pid)
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/Users/sundarb/Documents/anaconda3/lib/python3.7/site-packages/psutil/_psosx.py", line 369, in catch_zombie
+    raise AccessDenied(proc.pid, proc._name)
+psutil.AccessDenied: psutil.AccessDenied (pid=84985)

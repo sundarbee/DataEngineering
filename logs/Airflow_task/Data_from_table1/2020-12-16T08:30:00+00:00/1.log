@@ -1,0 +1,17 @@
+[2020-12-16 14:08:30,502] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Airflow_task.Data_from_table1 2020-12-16T08:30:00+00:00 [queued]>
+[2020-12-16 14:08:30,512] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Airflow_task.Data_from_table1 2020-12-16T08:30:00+00:00 [queued]>
+[2020-12-16 14:08:30,512] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-16 14:08:30,512] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-12-16 14:08:30,512] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-16 14:08:30,518] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): Data_from_table1> on 2020-12-16T08:30:00+00:00
+[2020-12-16 14:08:30,520] {standard_task_runner.py:54} INFO - Started process 87985 to run task
+[2020-12-16 14:08:30,554] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'Airflow_task', 'Data_from_table1', '2020-12-16T08:30:00+00:00', '--job_id', '1775', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/server-elastic.py', '--cfg_path', '/var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/tmpc_2nxzf5']
+[2020-12-16 14:08:30,555] {standard_task_runner.py:78} INFO - Job 1775: Subtask Data_from_table1
+[2020-12-16 14:08:30,594] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: Airflow_task.Data_from_table1 2020-12-16T08:30:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-12-16 14:08:30,620] {logging_mixin.py:112} INFO - Error::::: FATAL:  database "test_aut" does not exist
+[2020-12-16 14:08:30,621] {logging_mixin.py:112} INFO - 
+[2020-12-16 14:08:30,621] {python_operator.py:114} INFO - Done. Returned value was: None
+[2020-12-16 14:08:30,625] {taskinstance.py:1057} INFO - Marking task as SUCCESS.dag_id=Airflow_task, task_id=Data_from_table1, execution_date=20201216T083000, start_date=20201216T083830, end_date=20201216T083830
+[2020-12-16 14:08:44,379] {local_task_job.py:102} INFO - Task exited with return code 0

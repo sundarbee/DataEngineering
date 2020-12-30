@@ -1,0 +1,25 @@
+[2020-12-30 10:48:25,350] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Controlling_a_DAG_with_the_terminal.test_task 2020-12-30T05:10:00+00:00 [queued]>
+[2020-12-30 10:48:25,365] {taskinstance.py:670} INFO - Dependencies all met for <TaskInstance: Controlling_a_DAG_with_the_terminal.test_task 2020-12-30T05:10:00+00:00 [queued]>
+[2020-12-30 10:48:25,365] {taskinstance.py:880} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-30 10:48:25,365] {taskinstance.py:881} INFO - Starting attempt 1 of 1
+[2020-12-30 10:48:25,365] {taskinstance.py:882} INFO - 
+--------------------------------------------------------------------------------
+[2020-12-30 10:48:25,374] {taskinstance.py:901} INFO - Executing <Task(PythonOperator): test_task> on 2020-12-30T05:10:00+00:00
+[2020-12-30 10:48:25,378] {standard_task_runner.py:54} INFO - Started process 56018 to run task
+[2020-12-30 10:48:25,431] {standard_task_runner.py:77} INFO - Running: ['airflow', 'run', 'Controlling_a_DAG_with_the_terminal', 'test_task', '2020-12-30T05:10:00+00:00', '--job_id', '1900', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/airflow_parameter.py', '--cfg_path', '/var/folders/x0/npyjyyg15zj3krdkh0pv612w0000gn/T/tmpu79nuh4l']
+[2020-12-30 10:48:25,433] {standard_task_runner.py:78} INFO - Job 1900: Subtask test_task
+[2020-12-30 10:48:25,478] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: Controlling_a_DAG_with_the_terminal.test_task 2020-12-30T05:10:00+00:00 [running]> 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.ip6.arpa
+[2020-12-30 10:48:25,502] {taskinstance.py:1150} ERROR - 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "/Users/sundarb/airflow/venv/lib/python3.8/site-packages/airflow/models/taskinstance.py", line 984, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/Users/sundarb/airflow/venv/lib/python3.8/site-packages/airflow/operators/python_operator.py", line 113, in execute
+    return_value = self.execute_callable()
+  File "/Users/sundarb/airflow/venv/lib/python3.8/site-packages/airflow/operators/python_operator.py", line 118, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/Users/sundarb/airflow/dags/airflow_parameter.py", line 20, in create_schema
+    kwargs['dag_run'].conf['client_name']))
+TypeError: 'NoneType' object is not subscriptable
+[2020-12-30 10:48:25,506] {taskinstance.py:1187} INFO - Marking task as FAILED. dag_id=Controlling_a_DAG_with_the_terminal, task_id=test_task, execution_date=20201230T051000, start_date=20201230T051825, end_date=20201230T051825
+[2020-12-30 10:48:30,340] {local_task_job.py:102} INFO - Task exited with return code 1
